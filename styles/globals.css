@@ -14,3 +14,26 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.u-max-width {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.c-section {
+    flex-direction: column;
+    justify-self: stretch;
+    position: relative;
+}
+.c-home-comp {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
