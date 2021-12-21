@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Sliderhome from '../src/components/Sliderhome/Sliderhome'
 import styles from '../styles/Home.module.css'
+import Newarrivals from '../src/components/Newarrivals/Newarrivals';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <section className='c-section'>
             <div className='c-home-comp'>
               <Sliderhome></Sliderhome>
+              <Newarrivals></Newarrivals>
             </div>
           </section>
         </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './Sliderhome.module.scss';
 import Image from 'next/image';
 
-const myLoader = ({ src, width, quality }) => {
-  return `https://dev2.sklum.com/img/core/skl/promos/home/${src}?w=${width}`;
+const myLoader = ({ src }) => {
+  return `https://dev2.sklum.com/img/core/skl/promos/home/${src}`;
 }
 
 const MyImage = (props) => {
