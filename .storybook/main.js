@@ -7,6 +7,8 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
+    "@storybook/addon-knobs",
+    "storybook-addon-code-preview"
   ],
   "framework": "@storybook/react"
 }
