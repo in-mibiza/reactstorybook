@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Newarrivals.module.scss";
+import styles from "./Newarrivals.module.css";
 import Image from "next/image";
 
 const myLoader = ({ src }) => {
