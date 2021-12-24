@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Sliderhome.module.css';
+import styles from './Sliderhome.module.scss';
 import Image from 'next/image';
 
 const myLoader = ({ src }) => {
